@@ -1,0 +1,44 @@
+/* Body background color */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styling for the header */
+header {
+    background-color: #ffcc99;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styling for the heading */
+h1 {
+    color: #8b4513;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Styling for the paragraph */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Styling for the button */
+input[type="button"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+input[type="button"]:hover {
+    background-color: #ff4500;
+}
