@@ -1,0 +1,42 @@
+/* Global styles for the body of the page */
+body {
+  font-family: Arial, sans-serif;  /* Sets the font to Arial or sans-serif as a fallback */
+  background-color: #f7f7f7;  /* Light gray background color for the page */
+  padding: 20px;  /* Adds padding around the entire body */
+}
+
+/* Styles for the header (title) */
+h1 {
+  margin-bottom: 20px;  /* Adds space below the header */
+}
+
+/* Common styles for all sticky notes */
+.note {
+  width: 150px;  /* Sets the width of each sticky note */
+  height: 150px;  /* Sets the height of each sticky note */
+  padding: 20px;  /* Adds space inside the sticky note around the text */
+  margin-right: 15px;  /* Adds space to the right of each sticky note */
+  margin-bottom: 15px;  /* Adds space below each sticky note */
+  float: left;  /* Makes the sticky notes float to the left, allowing them to be aligned next to each other */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);  /* Adds a subtle shadow around each sticky note */
+  font-weight: bold;  /* Makes the text inside the note bold */
+  font-size: 16px;  /* Sets the font size for the text inside the note */
+  border-radius: 8px;  /* Rounds the corners of the sticky note */
+  position: relative;  /* Allows the sticky notes to overlap if necessary, based on z-index */
+  text-align: center;  /* Centers the text inside the sticky note */
+}
+
+/* Styling for the yellow sticky note */
+.yellow {
+  background-color: #fff68f;  /* Sets the background color to light yellow */
+}
+
+/* Styling for the pink sticky note */
+.pink {
+  background-color: #ffb6c1;  /* Sets the background color to light pink */
+}
+
+/* Styling for the blue sticky note */
+.blue {
+  background-color: #add8e6;  /* Sets the background color to light blue */
+}
